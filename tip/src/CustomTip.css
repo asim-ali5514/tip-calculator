@@ -1,0 +1,26 @@
+.custom_tip {
+  width: 105px;
+  height: 45px;
+  font-family: "Space Mono", monospace;
+  background-color: hsl(202, 50%, 95%);
+  border: 2px solid transparent;
+  outline: none;
+  font-size: 24px;
+  color: hsl(183, 100%, 15%);
+  font-weight: 600;
+  border-radius: 7px;
+  text-align: right;
+}
+
+.custom_tip::placeholder {
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  color: hsl(182, 13%, 44%);
+  text-indent: 4%;
+  vertical-align: middle;
+}
+
+.custom_tip:focus {
+  border: 2px solid hsl(172, 67%, 43%);
+}
